@@ -341,15 +341,15 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                 Before & After: The Engineering Evolution
               </h2>
               <p className="text-muted" style={{ fontSize: '0.95rem' }}>
-                Drag the slider handle to inspect the transition from deep subterranean foundation excavation to the completed superstructure.
+                Drag the slider handle to inspect the transition from construction to completion.
               </p>
             </div>
 
             <BeforeAfterSlider
               beforeImage={project.beforeImage}
               afterImage={project.afterImage}
-              beforeLabel="STAGE 04 / EXCAVATION & SUBSTRUCTURE"
-              afterLabel="STAGE 07 / COMPLETED ARCHITECTURE"
+              beforeLabel="CONSTRUCTION"
+              afterLabel="COMPLETION"
             />
           </div>
         </section>

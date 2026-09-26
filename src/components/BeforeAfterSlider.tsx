@@ -11,8 +11,8 @@ interface BeforeAfterSliderProps {
 export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
   beforeImage,
   afterImage,
-  beforeLabel = 'EXCAVATION & SUB-STRUCTURE',
-  afterLabel = 'COMPLETED ARCHITECTURE'
+  beforeLabel = 'CONSTRUCTION',
+  afterLabel = 'COMPLETION'
 }) => {
   const [sliderPosition, setSliderPosition] = useState(50); // percentage
   const [isDragging, setIsDragging] = useState(false);
