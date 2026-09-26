@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, theme = 'dark' }) =>
             </div>
 
             <p className="text-muted" style={{ maxWidth: '380px', fontSize: '0.9rem', lineHeight: '1.65' }}>
-              Premier modern Indian civil engineering and construction firm. 20+ years of structural precision (since 2003), 140+ landmark handovers, and a 60-month structural warranty on every project.
+              Premier modern Indian civil engineering and construction firm. 20+ years of structural precision (since 2003), 60+ landmark handovers, and a 60-month structural warranty on every project.
             </p>
 
             <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

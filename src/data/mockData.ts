@@ -565,6 +565,60 @@ export const PROJECTS_DATA: Project[] = [
     ],
     planImage: '/projects/Plans/L&T.jpeg',
     featured: true
+  },
+  {
+    id: 'proj-08',
+    slug: 'kodambakkam-project',
+    name: 'Kodambakkam Modern Residence',
+    category: 'Residential',
+    status: 'Upcoming',
+    progress: 10,
+    location: 'Kodambakkam',
+    city: 'Chennai',
+    coordinates: '13.0524° N, 80.2255° E',
+    siteArea: '1,800 Sq. Ft.',
+    builtUpArea: '1,800 Sq. Ft.',
+    totalUnits: 'Independent Luxury Residence',
+    completionDate: 'Q4 2027',
+    reraNumber: 'TN/01/Building/1042/2026',
+    heroImage: '/projects/Upcoming/1800 sqft land area Location Kodambakkam Chennai/completed.jpeg',
+    gallery: [
+      '/projects/Upcoming/1800 sqft land area Location Kodambakkam Chennai/completed.jpeg',
+      '/projects/Upcoming/1800 sqft land area Location Kodambakkam Chennai/site.jpeg'
+    ],
+    beforeImage: '/projects/Upcoming/1800 sqft land area Location Kodambakkam Chennai/site.jpeg',
+    afterImage: '/projects/Upcoming/1800 sqft land area Location Kodambakkam Chennai/completed.jpeg',
+    description: 'A bespoke 1,800 sq.ft luxury residential project situated in the prime central residential enclave of Kodambakkam, Chennai. Engineered with high-strength RCC framed superstructure, optimized cross-ventilation, expansive terrace deck, and premium brand-locked finishes with 60-month structural warranty.',
+    architecturalStyle: 'Modern Urban Villa Architecture',
+    structureType: 'Seismic Resistant RCC Framed Structure with Chamber Brick Infill',
+    amenities: [
+      'Covered Multi-Vehicle Stilt Parking',
+      'Architectural Skylight & Double-Height Living',
+      'Automated Rainwater Catchment Network',
+      'Smart Video Door Intercom & Automated Gates',
+      'Solar Rooftop Infrastructure Provision',
+      '60-Month Comprehensive Structural Warranty'
+    ],
+    materialsUsed: [
+      'UltraTech Super OPC 53 Grade Concrete',
+      'Tata Tiscon 550D TMT Reinforcement',
+      'First-Class Chamber Red Bricks',
+      'Italian Statuario Marble Living Flooring'
+    ],
+    masterPlanHotspots: [
+      { id: 'spot-1', label: 'Ground Floor Foyer & Parking', type: 'Infrastructure', description: 'Wide-span column-free parking bay and grand entry lobby.', x: 30, y: 40 },
+      { id: 'spot-2', label: 'Double-Height Living Salon', type: 'Residential', description: 'Expansive family lounge with floor-to-ceiling daylight glazing.', x: 60, y: 35 },
+      { id: 'spot-3', label: 'Sky Pergola & Terrace Garden', type: 'Amenity', description: 'Private landscaped rooftop deck with weather-proof pergola.', x: 50, y: 70 }
+    ],
+    timeline: [
+      { stage: 'Soil Testing & Architectural Approval', date: 'Oct 2026', status: 'completed', description: 'Geotechnical soil report complete; CMDA planning approval sanctioned.' },
+      { stage: 'Site Barricading & Deep Excavation', date: 'Dec 2026', status: 'in-progress', description: 'Perimeter shoring, ground clearance, and borehole survey validation.' },
+      { stage: 'Isolated Footings & Raft Foundation', date: 'Feb 2027', status: 'upcoming', description: 'High-early strength M35 concrete pour with rebar inspection gates.' },
+      { stage: 'Superstructure Column & Slab Casting', date: 'Jul 2027', status: 'upcoming', description: 'Monolithic floor casting with laser level verification.' },
+      { stage: 'Finishing & Client Handover', date: 'Dec 2027', status: 'upcoming', description: '240-point snagging and final handover with 60-month structural warranty.' }
+    ],
+    planImage: '/projects/Plans/Kodambakkam Chennai.jpeg',
+    featured: true
   }
 ];
 
@@ -890,7 +944,7 @@ export const LIVE_REELS: VideoReel[] = [
    ========================================================================== */
 export const COMPANY_STATS = [
   { value: 20, suffix: '+', label: 'Years of Structural Mastery', description: 'Continuous engineering execution since 2003' },
-  { value: 140, suffix: '+', label: 'Delivered Projects', description: 'Zero structural failures across 140+ handovers' },
+  { value: 60, suffix: '+', label: 'Delivered Projects', description: 'Zero structural failures across 60+ handovers' },
   { value: 3.8, suffix: 'M', label: 'Sq. Ft. Built & Delivered', description: 'Residential, commercial, and township developments' },
   { value: 54, suffix: 'M', label: 'Safe Man-Hours Logged', description: 'Zero Lost Time Incidents (LTI) in the last 24 months' },
   { value: 60, suffix: '-mo', label: 'Structural Warranty', description: 'Backed by legal indemnity and bank guarantee' },
@@ -1136,7 +1190,7 @@ export const COMPANY_MILESTONES = [
   { year: '2016', title: 'Aluminium Formwork Adoption', description: 'Invested in Mivan modular formwork, cutting high-rise floor cycles to 7 days with zero plastering defects.' },
   { year: '2020', title: 'ISO 9001 / 14001 / 45001 Certification', description: 'Achieved triple ISO certification and crossed 30 million safe man-hours without lost-time incidents.' },
   { year: '2023', title: 'LEED Platinum Commercial Delivery', description: 'Broke ground on 850,000 sq.ft Apex One Tech Park, introducing BIM Level-3 coordination.' },
-  { year: '2026', title: '140+ Projects & Smart Township Launch', description: 'Over 3.8 million square feet delivered across South India and commencement of the 38-acre Royal Palm Township.' }
+  { year: '2026', title: '60+ Projects & Smart Township Launch', description: 'Over 3.8 million square feet delivered across South India and commencement of the 38-acre Royal Palm Township.' }
 ];
 
 /* ==========================================================================

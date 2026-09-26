@@ -59,7 +59,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                 </div>
                 <div>
                   <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--color-accent-primary)' }}>
-                    <AnimatedCounter value={140} suffix="+" />
+                    <AnimatedCounter value={60} suffix="+" />
                   </div>
                   <div style={{ fontSize: '0.85rem', fontWeight: 600 }}>Landmark Handovers</div>
                 </div>
